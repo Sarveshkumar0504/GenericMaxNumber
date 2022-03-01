@@ -14,6 +14,9 @@ namespace GenericMaxNumber
         public static readonly float[] FloatCase1;
         public static readonly float[] FloatCase2;
         public static readonly float[] FloatCase3;
+        public static readonly string[] StringCase1;
+        public static readonly string[] StringCase2;
+        public static readonly string[] StringCase3;
 
 
         static TestCases()
@@ -24,6 +27,10 @@ namespace GenericMaxNumber
             FloatCase1 = new float[] { 7.5f, 1.5f, 3.9f };
             FloatCase2 = new float[] { 7.6f, 5.1f, 2.0f };
             FloatCase3 = new float[] { 2.6f, 20.5f, 4.6f };
+            StringCase1 = new string[] { "Arun", "Tamil", "English" };
+            StringCase2 = new string[] { "sharpner", "rubber", "pencil" };
+            StringCase3 = new string[] { "sunflower", "lichie", "goa" };
+
         }
 
         public static string GetString<T>(T[] testCase)
