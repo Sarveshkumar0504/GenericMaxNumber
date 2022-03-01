@@ -17,5 +17,15 @@ namespace GenericMaxNumber
             else
                 Console.WriteLine("Max Value is {0}", num3);
         }
+
+        public static void FindFloatMaxNum(float num1, float num2, float num3)
+        {
+            if (num1.CompareTo(num2) >= 0 && num1.CompareTo(num2) >= 0)
+                Console.WriteLine("Max Value is {0}", num1);
+            else if (num2.CompareTo(num3) >= 0)
+                Console.WriteLine("Max Value is {0}", num2);
+            else
+                Console.WriteLine("Max Value is {0}", num3);
+        }
     }
 }
